@@ -11,7 +11,7 @@
             </div>
             <div class="text-white z-10">
                 <h1 class="font-heading font-black text-5xl">Hello, I'm Philipp.
-                    <span class="text-teal-500">I write code.</span>
+                    <type class="text-teal-500" :strings="['I write Code.', 'I make products.']"></type>
                 </h1>
                 <p class="mt-4 text-lg leading-loose max-w-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis cum perspiciatis quia consequatur quas, facere quisquam rerum dolor non vero odit, ut veritatis, repellat odio. Quae eligendi et id ex?</p>
             </div>
@@ -38,6 +38,7 @@
 
 <script>
 import Logo from "./Logo.vue"
+import Type from "./Type.vue"
 
 import perspective from "../directives/perspective"
 
@@ -46,6 +47,7 @@ export default {
 
     components: {
         Logo,
+        Type,
     },
 
     directives: {

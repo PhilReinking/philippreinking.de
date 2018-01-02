@@ -1,7 +1,5 @@
 export default {
     bind(el) {
-        console.log("bound", el)
-
         // set initial transform styles
         el.style.transform = `scale(1.05)`
 

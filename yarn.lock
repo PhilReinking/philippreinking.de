@@ -6258,6 +6258,10 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+typeit@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/typeit/-/typeit-5.2.0.tgz#be62a76bb467df1587b3b32d96427f1e2b5cb82b"
+
 uglify-es@3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.2.2.tgz#15c62b7775002c81b7987a1c49ecd3f126cace73"
