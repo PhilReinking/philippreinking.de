@@ -1,6 +1,6 @@
 <template>
     <div class="page-grid mx-auto">
-        <div class="bg-grey-100 text-white flex justify-center items-center">
+        <div class="bg-white text-white hidden xl:flex justify-center items-center">
             <a href="/">
                 <logo></logo>
             </a>
@@ -10,18 +10,18 @@
             <div class="bg-blue absolute pin-t pin-l pin-r pin-b skyline" v-perspective>
             </div>
             <div class="text-white z-10">
-                <h1 class="font-heading font-black text-5xl">Hello, I'm Philipp.
+                <h1 class="font-heading font-black text-4xl lg:text-5xl">Hello, I'm Philipp.
                     <type class="text-teal-500" :strings="['I write Code.', 'I make products.']"></type>
                 </h1>
-                <p class="mt-4 text-lg leading-loose max-w-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis cum perspiciatis quia consequatur quas, facere quisquam rerum dolor non vero odit, ut veritatis, repellat odio. Quae eligendi et id ex?</p>
+                <p class="mt-4 text-base lg:text-lg leading-loose max-w-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis cum perspiciatis quia consequatur quas, facere quisquam rerum dolor non vero odit, ut veritatis, repellat odio. Quae eligendi et id ex?</p>
             </div>
         </div>
 
-        <div class="bg-red col-span-3 overflow-hidden relative">
+        <div class="col-span-3 overflow-hidden relative hidden xl:block">
             <div class="desk absolute pin"></div>
         </div>
 
-        <div class="bg-grey-100 flex flex-col items-center justify-center">
+        <div class="bg-white flex flex-col items-center justify-center">
             <nav-link href="#">Consulting</nav-link>
             <nav-link href="#">Projects</nav-link>
             <nav-link href="#">Blog

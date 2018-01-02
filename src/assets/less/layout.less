@@ -1,7 +1,12 @@
 .page-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
     grid-auto-rows: 50vh;
+
+    @media (min-width: config("screens.xl")) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 50vh;
+    }
 }
 
 .col-span-2 {
