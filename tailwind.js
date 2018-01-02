@@ -42,6 +42,8 @@ let colors = {
     "grey-800": hsv(MAIN_HUE, 8, 40),
     "grey-900": hsv(MAIN_HUE, 8, 25),
 
+    "blue-500": hsv(MAIN_HUE, 70, 80),
+
     "teal-500": hsv(163, 49, 100),
 }
 
