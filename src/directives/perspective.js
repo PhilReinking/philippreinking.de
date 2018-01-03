@@ -13,7 +13,7 @@ export default {
                 let yShiftAbsolute = BASE * yShift
                 let xShiftAbsolute = BASE * xShift
 
-                let transform = `perspective(1000px) rotate3d(1,0,0,${yShiftAbsolute}deg) rotate3d(0,1,0,${xShiftAbsolute}deg) scale(1.05)`
+                let transform = `perspective(1000px) rotate3d(1,0,0,${yShiftAbsolute}deg) rotate3d(0,1,0,${xShiftAbsolute}deg) scale(1.08)`
 
                 el.style.transform = transform
             })
