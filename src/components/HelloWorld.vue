@@ -13,7 +13,8 @@
                 <h1 class="font-heading font-black text-4xl lg:text-5xl">Hello, I'm Philipp.
                     <type class="text-teal-500" :strings="['I write Code.', 'I make products.']"></type>
                 </h1>
-                <p class="mt-4 text-base lg:text-lg leading-loose max-w-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis cum perspiciatis quia consequatur quas, facere quisquam rerum dolor non vero odit, ut veritatis, repellat odio. Quae eligendi et id ex?</p>
+                <p class="mt-4 text-base lg:text-lg leading-loose max-w-lg">I’m the maker of
+                    <a class="text-white hover:text-teal-500" href="https://botreach.co">BotReach</a>, a platform for creating conversational experiences. I'm working as a contractor to help companies on topics like software design, automation and testing.</p>
             </div>
         </div>
 
